@@ -1,0 +1,85 @@
+:root {
+    --bg: #fff;
+    --top-menu:#fff;
+    --top-menu-links-color:#22223b;
+    --top-menu-links-color-hover:#9a8c98;
+    --card-bg:#fff;
+    --card-text:#212529;
+    --divider-line-from:#4a4e69;
+    --divider-line-to:#fff;
+    --has-bg:#f2e9e4;
+    --footer-bg:#f2e9e4;
+    --overall-color:#212529;
+    --a-color:#22223b;
+    --a-color-hover:#9a8c98;
+    --headline-dark:#22223b;
+    --headline-light:#4a4e69;
+    --cta-btn-bg: #4a4e69;
+    --cta-btn-color: #fff;
+    --cta-btn-bg-hover: transparent;
+    --cta-btn-color-hover: #212529;
+    --nav-mobile-bg:#fff;
+    --nav-mobile-color:#22223b;
+
+    --picture_and_text-block-headline-color:#4a4e69;
+    --picture_and_text-block-headline-tap:#4a4e69;
+
+    --contact_form-block-input-bg:transparent;
+    --contact_form-block-input-color: #000;
+    --contact_form-block-input-label: #000;
+    --contact_form-block-submit-bg:#22223b;
+    --contact_form-block-submit-color:#f2e9e4;
+
+    --testimonials-img-bg:#fff;
+    --testimonials-card-bg:#f2e9e4;
+    --testimonials-info-border:#f2e9e4;
+}
+
+* {
+    color: var(--overall-color);
+}
+
+body{background-color: var(--bg);}
+
+body a {color:var(--a-color);}
+body a:hover {color:var(--a-color);}
+
+.top-menu{background-color: var(--top-menu);}
+.top-menu .nav-item a{color: var(--top-menu-links-color);}
+.top-menu .nav-item a:hover{color: var(--top-menu-links-color-hover);}
+
+.card {background-color: var(--card-bg); color:var(--card-text);}
+
+.block-divider{background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(var(--divider-line-from)), to(var(--divider-line-to)));}
+
+.has-bg-color{background-color: var(--has-bg);}
+
+footer {background-color: var(--footer-bg);}
+
+.headline.dark {color:var(--headline-dark);}
+
+.headline.light {color:var(--headline-light);}
+
+.cta-btn {
+    color:var(--cta-btn-color);
+    background-color: var(--cta-btn-bg);
+}
+.cta-btn:hover {
+    color:var(--cta-btn-color-hover);
+    background-color: var(--cta-btn-bg-hover);
+}
+
+.nav.is_mobile {background-color: var(--nav-mobile-bg); color: var(--nav-mobile-color);}
+
+.picture_and_text-block .small-headline {color: var(--picture_and_text-block-headline-color);}
+.picture_and_text-block .small-headline-holder:before {background-color: var(--picture_and_text-block-headline-tap);}
+
+.contact_form-block .wpcf7-submit {background-color: var(--contact_form-block-submit-bg) !important; color:var(--contact_form-block-submit-color) !important;}
+.contact_form-block .contact-form label{color:var(--contact_form-block-input-label);}
+.contact_form-block .contact-form input, .contact_form-block .contact-form textarea {background-color: var(--contact_form-block-input-bg); color:var(--contact_form-block-input-color);}
+
+.testimonials-block .testimonial-picture {background-color: var(--testimonials-img-bg);}
+
+.testimonials-block .testimonial-card-body {background-color: var(--testimonials-card-bg);}
+
+.testimonials-block .testimonial-info{border-color: var(--testimonials-info-border);}

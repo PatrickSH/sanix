@@ -1,0 +1,68 @@
+.menu-bar {
+    box-shadow: 0px 4px 8px rgba(14, 29, 88, 0.1);
+}
+
+.hero-box {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(34px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 30px;
+}
+
+.big-shadow {
+    box-shadow: 1px 24px 40px rgba(37, 74, 191, 0.3);
+}
+
+.font-medium {    font-weight: 500;}
+.font-bold {    font-weight: 700;}
+
+.contact_form .style-input input {
+    /* White */
+    width:100%;
+    background: #FFFFFF;
+    /* Gray/20 */
+
+    border: 1px solid #EFF1F5;
+    box-sizing: border-box;
+    /* Inner Shadow */
+
+    box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.04);
+    border-radius: 4px;
+    padding: 12px 16px;
+}
+
+.style-checkbox .service .wpcf7-radio {
+    display: flex;
+    flex-direction: column;
+}
+
+.style-checkbox .service .wpcf7-radio .wpcf7-list-item {margin: 0px;}
+
+.contact_form .wpcf7-submit {
+    background: #82EE17;
+    box-shadow: 0px 9px 28px rgba(0, 0, 0, 0.24);
+    border-radius: 4px;
+    padding: 12px 16px;
+    width: 100%;
+    color:#fff;
+}
+
+.footer-shadow {
+    background: #FFFFFF;
+    box-shadow: 0px -4px 8px rgba(14, 29, 88, 0.1);
+}
+
+.blue-image-border-radius {
+    border-radius: 0px 0px 0px 140px;
+}
+
+.z-minus-one {
+    z-index: -1;
+}
+
+.phone-burger {
+    top:1.2rem;
+}
+
+.text-xss {font-size:9px;}
